@@ -17,3 +17,15 @@
     format("truetype");
   font-style: normal;
 }
+
+@import "/scss/vars";
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.description {
+  font-size: $baseFontSize;
+  color: $baseColor;
+}
