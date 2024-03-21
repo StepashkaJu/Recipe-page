@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 0 $paddingBase;
+}
+.header {
+  padding-top: $paddingBase;
+}
+.description {
+  padding: $paddingBase 0;
+}
+.recipe__steps {
+  padding-left: 5rem;
+}
+.recipe__time {
+  padding: $paddingSmall $paddingBase;
+}
+.recipe__item {
+  padding-bottom: $paddingSmall;
+  padding-left: $paddingBase;
+}
+.section-title {
+  padding: $paddingBase 0 0;
+}
+.ingredients__list {
+  padding: $paddingBase $paddingSmall;
+}
+.ingredients__item {
+  padding-left: $paddingSmall;
+}
+.instruction__list {
+  padding: $paddingBase 0 $paddingBase $paddingSmall;
+}
+.instruction__item {
+  padding-left: $paddingSmall;
+  padding-bottom: $paddingSmall;
+}
+
+.nutrition__table {
+  td {
+    padding-left: $paddingBase;
+    padding-bottom: $paddingBase;
+  }
+}

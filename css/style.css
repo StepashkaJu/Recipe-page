@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Outfit";
-  src: url("../assets/fonts/outfit/static/Outfit-Black.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-ExtraLight.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-Light.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-Medium.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype"), url("../assets/fonts/outfit/static/Outfit-Thin.ttf") format("truetype");
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
 }
 @font-face {
@@ -8,13 +8,166 @@
   src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
   font-style: normal;
 }
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
+.wrapper {
+  padding: 0 3rem;
+}
+
+.header {
+  padding-top: 3rem;
 }
 
 .description {
-  font-size: 1.6rem;
+  padding: 3rem 0;
+}
+
+.recipe__steps {
+  padding-left: 5rem;
+}
+
+.recipe__time {
+  padding: 2rem 3rem;
+}
+
+.recipe__item {
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.section-title {
+  padding: 3rem 0 0;
+}
+
+.ingredients__list {
+  padding: 3rem 2rem;
+}
+
+.ingredients__item {
+  padding-left: 2rem;
+}
+
+.instruction__list {
+  padding: 3rem 0 3rem 2rem;
+}
+
+.instruction__item {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.nutrition__table td {
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  width: 375px;
+  font-family: "Outfit";
   color: hsl(30, 10%, 34%);
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.recipeImage img {
+  width: 100%;
+}
+
+.header {
+  font-size: 3rem;
+  font-family: "YoungSerif";
+  font-weight: 100;
+  color: hsl(24, 5%, 18%);
+}
+
+.description {
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+}
+
+.recipe__info {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+
+.recipe__item::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.recipe__steps {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.recipe__time {
+  font-size: 2.4rem;
+  font-family: "Outfit";
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+
+.recipe__item {
+  line-height: 2rem;
+}
+
+.section-title {
+  font-family: "YoungSerif";
+  font-weight: 100;
+  font-size: 2.6rem;
+}
+
+.ingredients__item {
+  line-height: 3rem;
+}
+
+.ingredients__item::marker,
+.instruction__item::marker,
+.brown {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.instruction__item::marker {
+  font-weight: bold;
+}
+
+.divider {
+  border: 1px solid #f1f0ee;
+}
+
+.nutrition__table {
+  width: 100%;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
