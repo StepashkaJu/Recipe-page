@@ -27,6 +27,7 @@ The designs were created to the following widths:
 ### Screenshot
 
 Mobile version
+
 ![mobile](https://github.com/StepashkaJu/Recipe-page/assets/121011573/aa0a3723-f4cc-43fe-b3d7-e10234b34f44)
 
 Desktop version
