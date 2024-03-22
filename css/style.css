@@ -76,22 +76,6 @@ body {
   font-size: 1.6rem;
 }
 
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
 .recipeImage img {
   width: 100%;
 }
@@ -172,4 +156,26 @@ body {
 }
 .nutrition__table td {
   border-bottom: 1px solid #f1f0ee;
+}
+
+@media (min-width: 750px) and (max-width: 1440px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    width: 735px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    max-height: 100vh;
+  }
+  .wrapper {
+    background-color: white;
+    border-radius: 20px;
+  }
+  .recipeImage img {
+    margin-top: 2rem;
+    border-radius: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
