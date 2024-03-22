@@ -96,7 +96,10 @@ body {
 }
 .nutrition__table {
   width: 100%;
-  border: none;
+  border-collapse: collapse;
+  td {
+    border-bottom: 1px solid lighten($baseColor, 60%);
+  }
 }
 
 // @media (min-width: 750px) and (max-width: 1440px) {

@@ -55,8 +55,7 @@
 }
 
 .nutrition__table td {
-  padding-left: 3rem;
-  padding-bottom: 3rem;
+  padding: 1.5rem 0 1.5rem 3rem;
 }
 
 * {
@@ -169,5 +168,8 @@ body {
 
 .nutrition__table {
   width: 100%;
-  border: none;
+  border-collapse: collapse;
+}
+.nutrition__table td {
+  border-bottom: 1px solid #f1f0ee;
 }/*# sourceMappingURL=style.css.map */
